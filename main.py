@@ -5,24 +5,29 @@ def print_hi(name):
     # Use a breakpoint in the code line below to debug your script.
     print(f'Hi, {name}')  # Press Ctrl+F8 to toggle the breakpoint.
     rep0 = input("Outils Ordinateur, Disque, Réseau où Sécurité voulez-vous continué ? o|n:")
+
     while rep0 == "o":
-        rep0 = input("Outils du disque, réseau où sécurité continué ? o|n:")
+
         if rep0 == "o":
-            choix = input("Outils Ordinateur, Disque, Réseau où Sécurité ? 1|2|3|4 :")
+
+            choix = input("Outils Ordinateur, Disque, Réseau, Sécurité où n pour quitter ? 1|2|3|4 :")
             if choix == "1":
                 print_Ordi(name)
-            if choix == "2":
+            elif choix == "2":
                 print_Di(name)
             elif choix == "3":
                 print_R(name)
             elif choix == "4":
                 print_S(name)
+            elif choix == "n":
+                sys.exit()
         elif rep0 == "n":
             sys.exit()
 
 
+
 def print_Ordi(name):
-    ordi0 = input("Administration ordinateur 1, Surveillance ordinateur 2, Analyse ordinateur 3 ? 1|2|3|4 :")
+    ordi0 = input("Administration ordinateur 1, Surveillance ordinateur 2, Restauration ordinateur 3 ? 1|2|3 :")
     if ordi0 == "1":
         ordi = input("Ajouter compte , Moniteur ressource, Analyse virus, Access Distance 4 ? 1|2|3|4 :")
         if ordi == "1":
