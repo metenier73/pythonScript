@@ -5,12 +5,9 @@ def print_hi(name):
     # Use a breakpoint in the code line below to debug your script.
     print(f'Hi, {name}')  # Press Ctrl+F8 to toggle the breakpoint.
     rep0 = input("Outils Ordinateur, Disque, Réseau où Sécurité voulez-vous continué ? o|n:")
-
     while rep0 == "o":
-
+        choix = input("Outils Ordinateur, Disque, Réseau, Sécurité où n pour quitter ? 1|2|3|4 :")
         if rep0 == "o":
-
-            choix = input("Outils Ordinateur, Disque, Réseau, Sécurité où n pour quitter ? 1|2|3|4 :")
             if choix == "1":
                 print_Ordi(name)
             elif choix == "2":
@@ -25,7 +22,7 @@ def print_hi(name):
             sys.exit()
 
 
-
+#Commande ordinateur pour windows
 def print_Ordi(name):
     ordi0 = input("Administration ordinateur 1, Surveillance ordinateur 2, Restauration ordinateur 3 ? 1|2|3 :")
     if ordi0 == "1":
@@ -58,7 +55,7 @@ def print_Ordi(name):
         elif ordi == "3":
             os.system("sysdm.cpl")
 
-
+#Commande disque pour windows
 def print_Di(name):
     disc0 = input ("Observation disque, Analyse disque, restauration ? 1|2|3 :")
     if disc0 == "1":
@@ -88,6 +85,7 @@ def print_Di(name):
         elif disc == "2":
             os.system("DISKPART")
 
+##Commande réseaux pour windows
 def print_R(name):
 
     lan = input("Configuration IP 1, Propriétés internet 2, Terminal 3, Connexion réseau 4 ? 1|2|3|4 :")
@@ -99,7 +97,8 @@ def print_R(name):
         os.system('cmd.exe')
     elif lan == "4":
         os.system('NCPA.CPL')
-
+        
+###Commande sécurité pour windows
 def print_S(name):
 
     secu = input("Pare-feu 1, Fonction avancées Pare-feu 2, Sécurité 3 ? 1|2|3 :")
