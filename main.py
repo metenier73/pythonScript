@@ -45,8 +45,6 @@ def print_Di(name):
         elif disc == "2":
             os.system("DISKPART")
 
-
-
 def print_R(name):
 
     lan = input("Configuration IP 1, Propriétés internet 2, Terminal 3, Connexion réseau 4 ? 1|2|3|4 :")
