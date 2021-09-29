@@ -22,7 +22,6 @@ def print_hi(name):
         elif rep0 == "n":
             sys.exit()
 
-
 #Commande ordinateur pour windows ###
 def print_Ordi(name):
     ordi0 = input("Administration ordinateur 1, Configuration ordinateur 2 : 1|2 :")
