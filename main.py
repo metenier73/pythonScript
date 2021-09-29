@@ -26,7 +26,7 @@ def print_hi(name):
 def print_Ordi(name):
     ordi0 = input("Administration ordinateur 1, Surveillance ordinateur 2, Restauration ordinateur 3 ? 1|2|3 :")
     if ordi0 == "1":
-        ordi = input("Ajouter compte , Moniteur ressource, Analyse virus, Access Distance 4 ? 1|2|3|4 :")
+        ordi = input("Ajouter compte , Moniteur ressource, Analyse virus, Access Distance 4, Update 5 ? 1|2|3|4|5 :")
         if ordi == "1":
             os.system("netplwiz")
         elif ordi == "2":
@@ -35,7 +35,8 @@ def print_Ordi(name):
             os.system("mrt")
         elif ordi == "4":
             os.system("mstsc")
-
+        elif ordi == "5":
+            os.system("update.exe")
     if ordi0 == "2":
         ordi = input("Check Disk 1, Check NTFS 2,Defragment 3 ? 1|2|3:")
         if ordi == "1":
@@ -57,7 +58,7 @@ def print_Ordi(name):
 
 #Commande disque pour windows
 def print_Di(name):
-    disc0 = input ("Observation disque, Analyse disque, restauration ? 1|2|3 :")
+    disc0 = input("Observation disque, Analyse disque, restauration ? 1|2|3 :")
     if disc0 == "1":
         disc = input("Observateur d'événements 1, Propriétés système 2, Registre 3, Service 4 ? 1|2|3|4 :")
         if disc == "1":
@@ -70,20 +71,22 @@ def print_Di(name):
             os.system("services.msc")
 
     elif disc0 == "2":
-        disc = input("Check Disk 1, Check NTFS 2,Defragment 3 ? 1|2|3:")
+        disc = input("Check Disk 1, Nettoyer disque 2,Defragment 3 ? 1|2|3:")
         if disc == "1":
-            os.ctermid("CHKDSK")
+            os.system("cleanMgr")
         elif disc == "2":
             os.system("CHKNTFS c:")
         elif disc == "3":
-            os.system("DEFRAG")
+            os.system("DEFRAG /C")
 
     elif disc0 == "3":
-        disc = input("Restauration 1, Partition 2 ? 1|2 :")
+        disc = input("Restauration 1, Partition 2, Restauration avec un support externe 3 ? 1|2|3 :")
         if disc == "1":
             os.system("strui.exe")
         elif disc == "2":
             os.system("DISKPART")
+        elif disc == "3":
+            os.system("recdisc")
 
 ##Commande réseaux pour windows
 def print_R(name):
@@ -97,7 +100,7 @@ def print_R(name):
         os.system('cmd.exe')
     elif lan == "4":
         os.system('NCPA.CPL')
-        
+
 ###Commande sécurité pour windows
 def print_S(name):
 
@@ -112,6 +115,4 @@ def print_S(name):
 # Press the green button in the gutter to run the script.
 if __name__ == '__main__':
     print_hi("Bienvenue dans l'analyseur :")
-    print_Di("Outils du disque : ")
-    print_R("Outils du réseau :")
-    print_S("Outils sécurité ")
+
