@@ -23,6 +23,7 @@ def print_hi(name):
             sys.exit()
 
 #Commande ordinateur pour windows ###
+###Evolution paramètrage automatique utilisateur add user + name ordinateur
 def print_Ordi(name):
     ordi0 = input("Administration ordinateur 1, Configuration ordinateur 2 : 1|2 :")
     if ordi0 == "1":
@@ -54,6 +55,7 @@ def print_Ordi(name):
             os.system("RecoveryDrive.exe")
 
 #Commande disque pour windows ##
+###Evolution fider fichier journal event, nettoyer les cles registres###
 def print_Di(name):
     disc0 = input("Observation disque, Analyse disque ? 1|2 :")
     if disc0 == "1":
@@ -81,6 +83,7 @@ def print_Di(name):
             os.system("WUAUCLT")
 
 ##Commande réseaux pour windows ###
+###Configuration automatique connexion réseau###
 def print_R(name):
 
     lan = input("Configuration IP 1, Propriétés internet 2, Terminal 3, Connexion réseau 4 ? 1|2|3|4 :")
