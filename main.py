@@ -1,7 +1,7 @@
 import os
 import sys
-import utils
 
+###Fonction Princiale ###
 def print_hi(name):
     # Use a breakpoint in the code line below to debug your script.
     print(f'Hi, {name}')  # Press Ctrl+F8 to toggle the breakpoint.
@@ -23,7 +23,7 @@ def print_hi(name):
             sys.exit()
 
 
-#Commande ordinateur pour windows
+#Commande ordinateur pour windows ###
 def print_Ordi(name):
     ordi0 = input("Administration ordinateur 1, Configuration ordinateur 2 : 1|2 :")
     if ordi0 == "1":
@@ -54,7 +54,7 @@ def print_Ordi(name):
         elif ordi == "6":
             os.system("RecoveryDrive.exe")
 
-#Commande disque pour windows
+#Commande disque pour windows ##
 def print_Di(name):
     disc0 = input("Observation disque, Analyse disque ? 1|2 :")
     if disc0 == "1":
@@ -81,7 +81,7 @@ def print_Di(name):
         elif disc == "4":
             os.system("WUAUCLT")
 
-##Commande réseaux pour windows
+##Commande réseaux pour windows ###
 def print_R(name):
 
     lan = input("Configuration IP 1, Propriétés internet 2, Terminal 3, Connexion réseau 4 ? 1|2|3|4 :")
@@ -94,7 +94,7 @@ def print_R(name):
     elif lan == "4":
         os.system('NCPA.CPL')
 
-###Commande sécurité pour windows
+###Commande sécurité pour windows ###
 def print_S(name):
 
     secu = input("Pare-feu 1, Fonction avancées Pare-feu 2, Sécurité 3 ? 1|2|3 :")
