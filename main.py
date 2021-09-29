@@ -1,5 +1,6 @@
 import os
 import sys
+import utils
 
 def print_hi(name):
     # Use a breakpoint in the code line below to debug your script.
@@ -24,69 +25,61 @@ def print_hi(name):
 
 #Commande ordinateur pour windows
 def print_Ordi(name):
-    ordi0 = input("Administration ordinateur 1, Surveillance ordinateur 2, Restauration ordinateur 3 ? 1|2|3 :")
+    ordi0 = input("Administration ordinateur 1, Configuration ordinateur 2 : 1|2 :")
     if ordi0 == "1":
-        ordi = input("Ajouter compte , Moniteur ressource, Analyse virus, Access Distance 4, Update 5 ? 1|2|3|4|5 :")
+        ordi = input("Ajouter compte 1, Propriété System 2,Analyse virus 3 ,Access Distance 4 ,Gestionnaire périphérique 5 ? 1|2|3|4|5:")
         if ordi == "1":
             os.system("netplwiz")
         elif ordi == "2":
-            os.system("resmon")
+            os.system("sysdm.cpl")
         elif ordi == "3":
             os.system("mrt")
         elif ordi == "4":
             os.system("mstsc")
         elif ordi == "5":
-            os.system("update.exe")
+            os.system("hdwwiz.cpl")
+
     if ordi0 == "2":
-        ordi = input("Check Disk 1, Check NTFS 2,Defragment 3 ? 1|2|3:")
-        if ordi == "1":
-            os.system("sfc.exe")
+        ordi = input("Gestion Ordinateur 1, Sauvegarde 2, Restauration 3, Partition 4, Restauration avec un support externe 5, Créer un support de restauration 6 ? 1|2|3|4|5|6 :")
+        if ordi =="1":
+            os.system("CompMgmtLauncher.exe")
         elif ordi == "2":
-            os.system("CHKNTFS c:")
+            os.system("sdclt.exe")
         elif ordi == "3":
-            os.system("DEFRAG")
-
-    elif ordi0 == "3":
-        ordi = input("Restauration 1, Partition 2, Propriété System 3 ? 1|2|3 :")
-        if ordi == "1":
-            os.system("strui.exe")
-
-        elif ordi == "2":
+            os.system("RSTRUI")
+        elif ordi == "4":
             os.system("DISKPART")
-        elif ordi == "3":
-            os.system("sysdm.cpl")
+        elif ordi == "5":
+            os.system("recdisc")
+        elif ordi == "6":
+            os.system("RecoveryDrive.exe")
 
 #Commande disque pour windows
 def print_Di(name):
-    disc0 = input("Observation disque, Analyse disque, restauration ? 1|2|3 :")
+    disc0 = input("Observation disque, Analyse disque ? 1|2 :")
     if disc0 == "1":
-        disc = input("Observateur d'événements 1, Propriétés système 2, Registre 3, Service 4 ? 1|2|3|4 :")
+        disc = input("Observateur d'événements 1, Registre 2, Service 3, Moniteur ressource 4, Gestionnaire disque ? 1|2|3|4|5 :")
         if disc == "1":
             os.system("Eventvwr.msc")
         elif disc == "2":
-            os.system("sysdm.cpl")
-        elif disc == "3":
             os.system("Regedit.exe")
-        elif disc == "4":
+        elif disc == "3":
             os.system("services.msc")
+        elif disc == "4":
+            os.system("resmon")
+        elif disc == "5":
+            os.system("DISKMGMT.MSC")
 
     elif disc0 == "2":
-        disc = input("Check Disk 1, Nettoyer disque 2,Defragment 3 ? 1|2|3:")
+        disc = input("Nettoyer disque 1, Réinitialiser 2, Defragment 3, Mise à jour 4 ? 1|2|3|4 :")
         if disc == "1":
             os.system("cleanMgr")
         elif disc == "2":
-            os.system("CHKNTFS c:")
+            os.system("systemreset.exe")
         elif disc == "3":
-            os.system("DEFRAG /C")
-
-    elif disc0 == "3":
-        disc = input("Restauration 1, Partition 2, Restauration avec un support externe 3 ? 1|2|3 :")
-        if disc == "1":
-            os.system("strui.exe")
-        elif disc == "2":
-            os.system("DISKPART")
-        elif disc == "3":
-            os.system("recdisc")
+            os.system("dfrgui.exe")
+        elif disc == "4":
+            os.system("WUAUCLT")
 
 ##Commande réseaux pour windows
 def print_R(name):
