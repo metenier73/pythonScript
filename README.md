@@ -20,5 +20,8 @@ Pour exécuter le script il suffit de cliquer sur le fichier principal main.py
 
 
 
-Vous avez le droit d'utiliser tout mon code qui est libre d'exploitation et en opensource:
+Vous avez le droit d'utiliser tout mon code 
+
+Il est libre d'exploitation et en opensource:
+
 meteniermyriam@yahoo.fr
