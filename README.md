@@ -7,10 +7,11 @@ Prérequis :
 	- Python 3.9
 	- Pycharm
 	
-Pycharm est un IDE python pour ce projet il suffit de cliquer sur le fichier principal main.py
-	- le script main.py s'exécute comme un exécutable s'il à été ouvert auparavant comme ci dessous 
-	
-Avec  un clic droit sur le fichier main.py ouvrir avec choisir IDE python ...
+Pycharm est un IDE python 
+Pour exécuter le script il suffit de cliquer sur le fichier principal main.py
+
+	- le script main.py s'exécute comme un exécutable s'il à été ouvert auparavant comme ci dessous
+	- Avec  un clic droit sur le fichier main.py ouvrir avec choisir IDE python ...
 
 
 
