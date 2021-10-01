@@ -6,13 +6,16 @@ Prérequis :
 	- utiliser windows 10
 	- Python 3.9
 	- Pycharm
-	
-Pycharm est un IDE python 
 
-Pour exécuter le script il suffit de cliquer sur le fichier principal main.py
+Pour exécuter main.py comme pour un .exe :
+	- Nous installons le package pyinstaller dans les packages du script 
+	- Puis en ligne de commande sur le script :
+		- pyinstaller main.py 
+		
+Cliquer sur le fichier principal main.py il s'executera alors comme pour un .exe
 
-	- le script main.py s'exécute comme un exécutable s'il à été ouvert auparavant comme ci dessous
-	- Avec  un clic droit sur le fichier main.py ouvrir avec choisir IDE python ...
+	- le script main.py s'exécutera automatiquement comme un exécutable si celui-ci est ouvert auparavant comme voir capture écran.
+	- Clic droit sur le fichier main.py -> ouvrir avec choisir IDE python ...
 
 
 
