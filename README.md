@@ -8,6 +8,7 @@ Prérequis :
 	- Pycharm
 	
 Pycharm est un IDE python 
+
 Pour exécuter le script il suffit de cliquer sur le fichier principal main.py
 
 	- le script main.py s'exécute comme un exécutable s'il à été ouvert auparavant comme ci dessous
