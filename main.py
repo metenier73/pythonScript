@@ -3,13 +3,10 @@
 import os
 import sys
 
-
 # Fonction Princiale ###
 def print_hi(name):
     # Use a breakpoint in the code line below to debug your script.
-
     print(f'Hi, {name}')  # Press Ctrl+F8 to toggle the breakpoint.
-
     try:
         rep0 = input(str("Outils ordinateur 1, Disque 2, Réseau 3, Sécurité 4 ou Quitter 5 ? 1|2|3|4|5 :"))
         repo = int(rep0)
@@ -34,7 +31,6 @@ def print_hi(name):
         print("Error : Vous devez entrer un nombre")
     print_hi(name)
 
-
 # Commande ordinateur pour windows ###
 # Evolution paramètrage automatique utilisateur add user + name ordinateur
 def print_Ordi():
@@ -56,12 +52,10 @@ def print_Ordi():
                 os.system("hdwwiz.cpl")
             if ordi == "6":
                 sys.exit()
-
         elif ordi0 == "2":
             ordi = input(str(
                 "Gestion Ordinateur 1, Sauvegarde 2, Restauration 3, Partition 4, Restauration avec un support "
                 "externe 5, Créer un support de restauration 6 ou Quitter 7 ? 1|2|3|4|5|6|7 :"))
-
             if ordi == "1":
                 os.system("CompMgmtLauncher.exe")
             elif ordi == "2":
@@ -76,21 +70,16 @@ def print_Ordi():
                 os.system("RecoveryDrive.exe")
             if ordi == "7":
                 sys.exit()
-
         elif ordi0 == "3":
             sys.exit()
-
         elif ordi0 > "5":
             print("nombre trop grand")
             ordi0 = input(int("Administration ordinateur 1, Configuration ordinateur 2, ou Quitter 3 : 1|2|3 :"))
-
         elif ordi0 < "1":
             print("nombre trop petit")
             ordi0 = input(int("Administration ordinateur 1, Configuration ordinateur 2, ou Quitter 3 : 1|2|3 :"))
-
     except ValueError:
         print("Error : Vous devez entrer un nombre")
-
 
 # Commande disque pour windows ##
 # Evolution fider fichier journal event, nettoyer les cles registres###
@@ -115,7 +104,6 @@ def print_Di():
                 os.system("DISKMGMT.MSC")
             elif disc == "6":
                 sys.exit()
-
         elif disc0 == "2":
             disc = input(str("Nettoyer disque 1, Réinitialiser 2, Defragment 3, Mise à jour 4 où Quitter 5 ? 1|2|3|4|5 :"))
             if disc == "1":
@@ -128,21 +116,16 @@ def print_Di():
                 os.system("WUAUCLT")
             elif disc == "5":
                 sys.exit()
-
         elif disc0 == "3":
             sys.exit()
-
         elif disc0 > "5":
             print("nombre trop grand")
             disc0 = input(int("Observation disque 1, Analyse disque 2 où Quitter 3 ? 1|2|3 :"))
-
         elif disc0 < "1":
             print("nombre trop petit")
             disc0 = input(int("Observation disque 1, Analyse disque 2 où Quitter 3 ? 1|2|3 :"))
-
     except ValueError:
         print("Error : Vous devez entrer un nombre")
-
 
 # Commande réseaux pour windows
 # Configuration automatique connexion réseau
@@ -171,7 +154,6 @@ def print_R():
     except ValueError:
         print("Error : Vous devez entrer un nombre")
 
-
 # Commande sécurité pour windows
 def print_S():
     try:
@@ -188,11 +170,9 @@ def print_S():
         elif secu0 > "5":
             print("nombre trop grand")
             secu0 = input(int("Pare-feu 1, Fonction avancées Pare-feu 2, Sécurité 3 ? 1|2|3 :"))
-
         elif secu0 < "1":
             print("nombre trop petit")
             secu0 = input(int("Pare-feu 1, Fonction avancées Pare-feu 2, Sécurité 3 ? 1|2|3 :"))
-
     except ValueError:
             print("Error : Vous devez entrer un nombre")
 
