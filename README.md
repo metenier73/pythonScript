@@ -1,17 +1,15 @@
 # pythonScript
-Boite à outils pour Windows permet la maintenance ordinateur
+Boite à outils pour windows permet la maintenance 
 
 Prérequis :
-
 	- utiliser windows 10
-	- Python 3.9 IDE
-	- Pycharm IDE au choix
-
-Pour l' exécution du script il suffit de cliquer sur le fichier principal main.py
-	- le script main.py s'exécute comme un exécutable
+	- Python 3.9
+	- Pycharm
 	
-	- Pour celà auparavant :
-		Clic droit sur le fichier main.py ouvrir avec choisir IDE python ...
+Pycharm est un IDE python pour ce projet il suffit de cliquer sur le fichier principal main.py
+	- le script main.py s'exécute comme un exécutable s'il à été ouvert auparavant comme ci dessous 
+	
+Avec  un clic droit sur le fichier main.py ouvrir avec choisir IDE python ...
 
 
 
