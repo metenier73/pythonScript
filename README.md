@@ -8,6 +8,7 @@ Prérequis :
 	- Pycharm
 
 Pour exécuter main.py comme pour un .exe :
+
 	- Nous installons le package pyinstaller dans les packages du script 
 	- Puis en ligne de commande sur le script :
 		- pyinstaller main.py 
