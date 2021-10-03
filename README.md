@@ -5,7 +5,7 @@ Prérequis :
 
 	- utiliser windows 10
 	- Python 3.9
-	- Pycharm
+	- Pycharm "optionnellement"
 
 Pour exécuter main.py comme pour un .exe :
 
