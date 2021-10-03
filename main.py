@@ -4,7 +4,7 @@ import os
 import sys
 
 
-# Fonction Princiale ###
+### Fonction Princiale ###
 def print_hi(name):
     # Use a breakpoint in the code line below to debug your script.
     print(f'Hi, {name}')  # Press Ctrl+F8 to toggle the breakpoint.
@@ -175,7 +175,7 @@ def print_Di():
 
 
 # Commande réseaux pour windows
-# Configuration automatique connexion réseau
+# Configuration  connexion réseau
 def print_R():
     try:
         lan0 = input(
@@ -246,4 +246,4 @@ def print_S():
 
 # Press the green button in the gutter to run the script.
 if __name__ == '__main__':
-    print_hi("Bienvenue dans l'analyseur :")
+    print_hi("Bienvenue dans la boite à outils windows :")
