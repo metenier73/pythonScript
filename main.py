@@ -54,7 +54,7 @@ def print_Ordi():
     try:
         ordi0 = input(str("""
         Administration ordinateur 1, Configuration ordinateur 2
-        où Quitter 3 : 1|2|3 :"""))
+        où Quitter 3 : 1|2|3 : """))
         ordi = int(ordi0)
         if ordi0 == "1":
             ordi = input(str("""    
@@ -105,7 +105,7 @@ def print_Ordi():
             print("nombre trop grand")
             ordi0 = input(int("""
                     Administration ordinateur 1, Configuration ordinateur 2
-                    où Quitter 3 : 1|2|3 :"""))
+                    où Quitter 3 : 1|2|3 : """))
         elif ordi0 < "1":
             print("nombre trop petit")
             ordi0 = input(int("""
@@ -128,7 +128,7 @@ def print_Di():
             Service 3
             Moniteur ressource 4
             Gestionnaire disque 5 
-            où Quitter 6 ? 1|2|3|4|5 :"""))
+            où Quitter 6 ? 1|2|3|4|5 : """))
             if disc == "1":
                 os.system("Eventvwr.msc")
             elif disc == "2":
@@ -165,7 +165,7 @@ def print_Di():
             print("nombre trop grand")
             disc0 = input(int("""
                 Observation disque 1, Analyse disque 2 "
-                "où Quitter 3 ? 1|2|3 :"""))
+                "où Quitter 3 ? 1|2|3 : """))
         elif disc0 < "1":
             print("nombre trop petit")
             disc0 = input(int("""
