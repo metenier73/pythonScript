@@ -26,6 +26,6 @@ Cliquer sur le fichier principal main.py il s'executera alors comme pour un .exe
 
 Vous avez le droit d'utiliser tout mon code 
 
-Il est libre d'exploitation et en opensource:
+Il est libre d'exploitation et opensource:
 
 meteniermyriam@yahoo.fr
