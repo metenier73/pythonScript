@@ -3,7 +3,7 @@ Boite à outils pour windows permet la maintenance
 
 Prérequis :
 
-	- utiliser windows 10
+	- Utiliser windows 10
 	- Python 3.9
 	- Pycharm "optionnellement"
 
