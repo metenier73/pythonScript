@@ -1,12 +1,13 @@
-from setuptools import setup
+import setuptools
+from setuptools import find_packages
 
-setup(
-    name='main.py',
-    version='10',
-    packages=[''],
+setuptools.setup(
+    name='boite_outils_windows10',
+    version='1.0.0',
+    packages=find_packages(),
     url='https://github.com/metenier73/pythonScript.git',
-    license='opensource',
+    license='MIT',
     author='metenier',
     author_email='meteniermyriam@yahoo.fr',
-    description='Boite à outils windows 10'
+    description='Boite  outils windows 10'
 )

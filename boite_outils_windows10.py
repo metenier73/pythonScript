@@ -1,5 +1,3 @@
-from xml.sax.handler import version
-
 import setuptools
 from setuptools import find_packages
 
