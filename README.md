@@ -15,16 +15,16 @@ Prérequis :
 	- Python 3.9
 	- Pycharm "optionnellement"
 
-Pour exécuter main.py comme pour un .exe :
+Pour exécuter BoiteOutils.py comme pour un .exe :
 
 	- Nous installons le package pyinstaller dans les packages du script 
 	- Puis en ligne de commande sur le script :
-		- pyinstaller main.py 
+		- pyinstaller BoiteOutils.py 
 		
-Cliquer sur le fichier principal main.py il s'executera alors comme pour un .exe
+Cliquer sur le fichier principal BoiteOutils.py il s'executera alors comme pour un .exe
 
-	- le script main.py s'exécutera automatiquement comme un exécutable si celui-ci est ouvert auparavant comme voir capture écran.
-	- Clic droit sur le fichier main.py -> ouvrir avec choisir IDE python ...
+	- le script BoiteOutils.py s'exécutera automatiquement comme un exécutable si celui-ci est ouvert auparavant comme voir capture écran.
+	- Clic droit sur le fichier BoiteOutils.py -> ouvrir avec choisir IDE python ...
 
 
 
