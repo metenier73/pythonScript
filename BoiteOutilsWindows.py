@@ -23,6 +23,9 @@ def ordinateur_tools():
     tk.Button(tools_window, text="Propriétés Système", command=lambda: run_command("sysdm.cpl")).pack(pady=5)
     tk.Button(tools_window, text="Analyse Virus", command=lambda: run_command("mrt")).pack(pady=5)
     tk.Button(tools_window, text="Gestionnaire Périphériques", command=lambda: run_command("hdwwiz.cpl")).pack(pady=5)
+	
+	
+	
 
 
 def disque_tools():
@@ -51,7 +54,7 @@ def securite_tools():
 # Main window setup
 root = tk.Tk()
 root.title("Boîte à Outils Windows")
-root.geometry("600x400")
+root.geometry("800x400")
 
 # Main menu buttons
 tk.Label(root, text="Sélectionnez une catégorie :", font=("Helvetica", 14)).pack(pady=10)
