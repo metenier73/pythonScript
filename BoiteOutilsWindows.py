@@ -5,27 +5,6 @@ import sys
 import tkinter as tk
 from tkinter import messagebox
 
-# Constants for menu choices
-TOOLS_MENU = {
-    "1": "Ordinateur",
-    "2": "Disque",
-    "3": "Réseau",
-    "4": "Sécurité",
-    "5": "Quitter"
-}
-
-# Helper function to get validated integer input
-def get_choice(prompt, choices):
-    while True:
-        try:
-            choice = input(prompt)
-            if choice in choices:
-                return choice
-            else:
-                print("Choix invalide, réessayez.")
-        except ValueError:
-            print("Veuillez entrer un nombre valide.")
-
 
 # Function mappings for each action
 def run_command(command):

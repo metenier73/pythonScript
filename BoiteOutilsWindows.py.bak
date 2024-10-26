@@ -26,27 +26,6 @@ def get_choice(prompt, choices):
         except ValueError:
             print("Veuillez entrer un nombre valide.")
 
-# Main menu
-# def main_menu():
-    # print("Bienvenue dans la boîte à outils Windows !")
-    # while True:
-        # choice = get_choice(
-            # "\nChoisissez une option :\n" +
-            # "\n".join([f"{k}: {v}" for k, v in TOOLS_MENU.items()]) + "\n> ",
-            # TOOLS_MENU.keys()
-        # )
-        # if choice == "1":
-            # ordinateur_tools()
-        # elif choice == "2":
-            # disque_tools()
-        # elif choice == "3":
-            # reseau_tools()
-        # elif choice == "4":
-            # securite_tools()
-        # elif choice == "5":
-            # print("Sortie du programme.")
-            # sys.exit()
-
 
 # Function mappings for each action
 def run_command(command):
