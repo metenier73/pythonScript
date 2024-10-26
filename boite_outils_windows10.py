@@ -3,7 +3,7 @@ from setuptools import find_packages
 
 setuptools.setup(
     name='boite_outils_windows10',
-    version='1.0.0',
+    version='1.1.0',
     packages=find_packages(),
     url='https://github.com/metenier73/pythonScript.git',
     license='MIT',
