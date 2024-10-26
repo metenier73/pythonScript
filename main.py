@@ -7,6 +7,7 @@ import sys
 ### Fonction Princiale ###
 def print_hi(name):
     # Use a breakpoint in the code line below to debug your script.
+<<<<<<< HEAD
     # Press Ctrl+F8 to toggle the breakpoint.
     print('--------------------------------------------------------') 
     print(f'Hi, {name}')  # Press Ctrl+F8 to toggle the breakpoint.
@@ -19,6 +20,18 @@ def print_hi(name):
         Sécurité : 4 
         Quitter : 5 ? 
         1|2|3|4|5 : """))
+=======
+    print('_________________________________________________________________________') 
+    print(f'Hi, {name}')  # Press Ctrl+F8 to toggle the breakpoint.
+    print('_____________________________________________________________________')
+    try:
+        rep0 = input(str("""
+        Outils ordinateur Choix : 1 
+        Disque Choix : 2 
+        Réseau Choix : 3 
+        Sécurité Choix : 4 
+        Quitter Choix : 5 ? 1|2|3|4|5 : """))
+>>>>>>> 85d5fa6794aea9a1bcd7ac3996643ea3ed61daa9
         repo = int(rep0)
         while True:
             if rep0 == "1":
@@ -34,6 +47,7 @@ def print_hi(name):
             elif rep0 > "5":
                 print("nombre trop grand")
                 rep0 = input("""
+<<<<<<< HEAD
                 Outils ordinateur : 1
                 Disque : 2 
                 Réseau : 3 
@@ -49,6 +63,21 @@ def print_hi(name):
                         Sécurité : 4 
                         Quitter : 5 ? 
                         1|2|3|4|5 : """)
+=======
+                Outils ordinateur  :  1
+                Disque  :  2 
+                Réseau  :  3 
+                Sécurité  :  4 
+                Quitter  :  5 ? 1|2|3|4|5 : """)
+            elif rep0 < "1":
+                print("nombre trop petit")
+                rep0 = input("""
+                        Outils ordinateur  :  1
+                        Disque  :  2
+                        Réseau  :  3 
+                        Sécurité  :  4 
+                        Quitter  :  5 ? 1|2|3|4|5 : """)
+>>>>>>> 85d5fa6794aea9a1bcd7ac3996643ea3ed61daa9
     except ValueError:
         print("Error : Vous devez entrer un nombre")
     print_hi(name)
@@ -59,6 +88,7 @@ def print_hi(name):
 def print_Ordi():
     try:
         ordi0 = input(str("""
+<<<<<<< HEAD
         Administration ordinateur : 1
         Configuration ordinateur : 2
         Quitter : 3 ? 
@@ -73,6 +103,20 @@ def print_Ordi():
             Gestionnaire périphérique : 5 
             Quitter : 6 ? 
             1|2|3|4|5|6: """))
+=======
+        Administration  :  1
+        Configuration  :  2
+        Quitter  :  3 : 1|2|3 : """))
+        ordi = int(ordi0)
+        if ordi0 == "1":
+            ordi = input(str("""    
+            Ajouter compte  :  1 
+            Propriété System  :  2
+            Analyse virus  :  3 
+            Access Distance  :  4 
+            Gestionnaire périphérique  :  5 
+            Quitter  :  6 ? 1|2|3|4|5|6: """))
+>>>>>>> 85d5fa6794aea9a1bcd7ac3996643ea3ed61daa9
             if ordi == "1":
                 os.system("netplwiz")
             elif ordi == "2":
@@ -87,6 +131,7 @@ def print_Ordi():
                 sys.exit()
         elif ordi0 == "2":
             ordi = input(str(
+<<<<<<< HEAD
                 """Gestion Ordinateur : 1
                 Sauvegarde : 2
                 Restauration : 3
@@ -95,6 +140,15 @@ def print_Ordi():
                 Créer un support de restauration : 6 
                 Quitter : 7 ? 
                 1|2|3|4|5|6|7 : """))
+=======
+                """Gestion Ordinateur :  1
+                Sauvegarde  :  2
+                Restauration  :  3
+                Partition  :  4
+                Restauration avec un support externe  :  5
+                Créer un support de restauration  :  6 
+                Quitter  :  7 ? 1|2|3|4|5|6|7 : """))
+>>>>>>> 85d5fa6794aea9a1bcd7ac3996643ea3ed61daa9
             if ordi == "1":
                 os.system("CompMgmtLauncher.exe")
             elif ordi == "2":
@@ -114,6 +168,7 @@ def print_Ordi():
         elif ordi0 > "5":
             print("nombre trop grand")
             ordi0 = input(int("""
+<<<<<<< HEAD
                     Administration ordinateur : 1, Configuration ordinateur : 2
                     où Quitter : 3 ? 
                     1|2|3 : """))
@@ -123,6 +178,17 @@ def print_Ordi():
                         Administration ordinateur 1, Configuration ordinateur 2, 
                         Quitter : 3 ? 
                         1|2|3 : """))
+=======
+                    Administration   :  1
+                    Configuration   :  2
+                    Quitter  :  3 : 1|2|3 : """))
+        elif ordi0 < "1":
+            print("nombre trop petit")
+            ordi0 = input(int("""
+                        Administration   :  1
+                        Configuration   :  2 
+                        Quitter  :  3 : 1|2|3 : """))
+>>>>>>> 85d5fa6794aea9a1bcd7ac3996643ea3ed61daa9
     except ValueError:
         print("Error : Vous devez entrer un nombre")
 
@@ -135,6 +201,7 @@ def print_Di():
         disc = int(disc0)
         if disc0 == "1":
             disc = input(str("""
+<<<<<<< HEAD
             Observateur d'événements : 1
             Registre : 2
             Service : 3
@@ -142,6 +209,14 @@ def print_Di():
             Gestionnaire disque : 5 
             Quitter : 6 ? 
             1|2|3|4|5 : """))
+=======
+            Observateur d'événements  :  1
+            Registre  :  2
+            Service  :  3
+            Moniteur ressource  :  4
+            Gestionnaire disque  :  5 
+            Quitter  :  6 ? 1|2|3|4|5 : """))
+>>>>>>> 85d5fa6794aea9a1bcd7ac3996643ea3ed61daa9
             if disc == "1":
                 os.system("Eventvwr.msc")
             elif disc == "2":
@@ -157,12 +232,20 @@ def print_Di():
         elif disc0 == "2":
             disc = input(
                 str("""
+<<<<<<< HEAD
             Nettoyer disque : 1 
             Réinitialiser : 2 
             Defragment : 3 
             Mise à jour : 4 
             Quitter : 5 ? 
             1|2|3|4|5 : """))
+=======
+            Nettoyer disque  :  1 
+            Réinitialiser  Windows  :  2 
+            Defragment  :  3 
+            Mise à jour  :  4 
+            Quitter  :  5 ? 1|2|3|4|5 : """))
+>>>>>>> 85d5fa6794aea9a1bcd7ac3996643ea3ed61daa9
             if disc == "1":
                 os.system("cleanMgr")
             elif disc == "2":
@@ -178,6 +261,7 @@ def print_Di():
         elif disc0 > "5":
             print("nombre trop grand")
             disc0 = input(int("""
+<<<<<<< HEAD
                 Observation disque : 1, Analyse disque : 2 "
                 "Quitter : 3 ? 
                 1|2|3 : """))
@@ -186,6 +270,17 @@ def print_Di():
             disc0 = input(int("""
                 Observation disque : 1, Analyse disque : 2 Quitter : 3 ? 
                 1|2|3 : """))
+=======
+                Observation disque  :  1
+                Analyse disque  :  2 
+                "Quitter  :  3 ? 1|2|3 : """))
+        elif disc0 < "1":
+            print("nombre trop petit")
+            disc0 = input(int("""
+                Observation disque  :  1
+                Analyse disque  :  2 
+                Quitter  :  3 ? 1|2|3 : """))
+>>>>>>> 85d5fa6794aea9a1bcd7ac3996643ea3ed61daa9
     except ValueError:
         print("Error : Vous devez entrer un nombre")
 
@@ -196,12 +291,20 @@ def print_R():
     try:
         lan0 = input(
             str("""
+<<<<<<< HEAD
         Configuration IP : 1
         Propriétés internet : 2 
         Terminal : 3 
         Connexion réseau : 4 
         Quitter : 5 ? 
         1|2|3|4|5 : """))
+=======
+        Configuration IP  :  1
+        Propriétés internet  :  2 
+        Terminal  :  3 
+        Connexion réseau  :  4 
+        Quitter  :  5 ? 1|2|3|4|5 : """))
+>>>>>>> 85d5fa6794aea9a1bcd7ac3996643ea3ed61daa9
         lan = int(lan0)
         if lan0 == "1":
             os.system('IPCONFIG')
@@ -216,22 +319,38 @@ def print_R():
         elif lan0 > "5":
             print("nombre trop grand")
             lan0 = input(int("""
+<<<<<<< HEAD
             Configuration IP : 1
             Propriétés internet : 2 
             Terminal : 3 
             Connexion réseau : 4 ? 
             Quitter : 5 ? 
             1|2|3|4|5 : """))
+=======
+            Configuration IP  :  1
+            Propriétés internet  :  2 
+            Terminal  :  3 
+            Connexion réseau  :  4 ? 
+            Quitter  :  5 ? 1|2|3|4|5 : """))
+>>>>>>> 85d5fa6794aea9a1bcd7ac3996643ea3ed61daa9
 
         elif lan0 < "1":
             print("nombre trop petit")
             lan0 = input(int("""
+<<<<<<< HEAD
                 Configuration IP : 1
                 Propriétés internet : 2 
                 Terminal : 3 
                 Connexion réseau : 4 ? 
                 Quitter : 5 ? 
                 1|2|3|4|5 : """))
+=======
+                Configuration IP  :  1
+                Propriétés internet  :  2 
+                Terminal  :  3 
+                Connexion réseau  :  4 ? 
+                Quitter  :  5 ? 1|2|3|4|5 : """))
+>>>>>>> 85d5fa6794aea9a1bcd7ac3996643ea3ed61daa9
 
     except ValueError:
         print("Error : Vous devez entrer un nombre")
@@ -241,8 +360,15 @@ def print_R():
 def print_S():
     try:
         secu0 = input(str("""
+<<<<<<< HEAD
         Pare-feu : 1, Fonction avancées Pare-feu : 2, Sécurité : 3 Quitter : 4 ? 
         1|2|3|4 : """))
+=======
+        Pare-feu  :  1
+        Fonction avancées Pare-feu  :  2
+        Sécurité  :  3 
+        Quitter  :  4 ? 1|2|3|4 : """))
+>>>>>>> 85d5fa6794aea9a1bcd7ac3996643ea3ed61daa9
         secu = int(secu0)
         if secu0 == "1":
             os.system("FIREWALL.CPL")
@@ -255,6 +381,7 @@ def print_S():
         elif secu0 > "5":
             print("nombre trop grand")
             secu0 = input(int("""
+<<<<<<< HEAD
             Pare-feu : 1, Fonction avancées Pare-feu : 2, Sécurité : 3 ? 
             1|2|3 : """))
         elif secu0 < "1":
@@ -262,6 +389,17 @@ def print_S():
             secu0 = input(int("""
             Pare-feu : 1, Fonction avancées Pare-feu : 2, Sécurité : 3 ? 
             1|2|3 : """))
+=======
+            Pare-feu 1
+            Fonction avancées Pare-feu  :  2
+            Sécurité  :  3 ? 1|2|3 : """))
+        elif secu0 < "1":
+            print("nombre trop petit")
+            secu0 = input(int("""
+            Pare-feu 1
+            Fonction avancées Pare-feu  :  2
+            Sécurité  :  3 ? 1|2|3 : """))
+>>>>>>> 85d5fa6794aea9a1bcd7ac3996643ea3ed61daa9
     except ValueError:
         print("Error : Vous devez entrer un nombre")
 
