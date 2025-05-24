@@ -1,39 +1,69 @@
-Script python pour Windows 10
-=============================
+# 🧰 Boîte à Outils Windows (Python)
 
-:Auteur: Metenier Myriam
-:Version: $1.0$
-:License: Creative Commons
+**Version :** 1.0  
+**Auteur :** Myriam Metenier  
+**Licence :** Creative Commons — Code libre et open source  
+**Contact :** meteniermyriam@yahoo.fr
 
-# pythonScript
---------------
-Boite à outils pour windows permet la maintenance 
+---
 
-Prérequis :
-----------
-	- Utiliser windows 10
-	- Python 3.9
-	- Pycharm "optionnellement"
+## 📋 Description
 
-Pour exécuter BoiteOutilsWindows.py comme pour un .exe :
+Cette application Python est une **boîte à outils de maintenance pour Windows 10**, conçue pour exécuter rapidement une série de tâches utiles : diagnostic système, nettoyage, vérification réseau, automatisation de scripts, etc.
 
-	- Nous installons le package pyinstaller dans les packages du script 
-	- Puis en ligne de commande sur le script :
-		- pyinstaller BoiteOutilsWindows.py 
-		
-Cliquer sur le fichier principal BoiteOutilsWindows.py il s'executera alors comme pour un .exe
+Elle peut être utilisée directement via Python, ou transformée en exécutable `.exe` grâce à **PyInstaller**, ce qui la rend accessible à tout utilisateur Windows.
 
-	- le script BoiteOutilsWindows.py s'exécutera automatiquement comme un exécutable si celui-ci est ouvert auparavant comme voir capture écran.
-	- Clic droit sur le fichier BoiteOutilsWindows.py -> ouvrir avec choisir IDE python ...
+---
+
+## 🖥️ Prérequis
+
+- ✅ Windows 10
+- ✅ Python 3.9 installé (https://www.python.org)
+- 🛠️ (Optionnel) Un IDE comme **PyCharm** ou **VS Code**
+
+---
+
+## ⚙️ Installation et exécution
+
+🔸 1. Exécution directe (mode développeur)
+
+```bash
+python BoiteOutilsWindows.py
+
+🔸 2. Création d’un exécutable .exe avec PyInstaller
+
+   	1. Installer PyInstaller :
+	pip install pyinstaller
+
+	2. Générer l’exécutable :
+	pyinstaller BoiteOutilsWindows.py --onefile
+
+	3. L’exécutable se trouvera dans le dossier /dist. Double-cliquez dessus pour lancer l'application.
+	
+	
+📂 Utilisation
+Exemple :
+
+    Clic droit sur BoiteOutilsWindows.py
+
+    Choisir : "Ouvrir avec" → votre IDE Python (ou python.exe)
+
+    Ou double-cliquez sur l'exécutable .exe une fois généré
+	
+
+![2025-05-25 01_43_41-Window](https://github.com/user-attachments/assets/7bca9cc9-fc42-4a91-8605-ed4bbb67519e)
 
 
 
-![2021-09-29 17_40_37-Window](https://user-images.githubusercontent.com/58040844/135306622-1b25dcf5-8366-4c22-9b3c-23ac450254ee.png)
+📖 Licence
 
+Ce projet est libre d’utilisation, de modification et de diffusion.
+Il est distribué sous licence Creative Commons — Attribution.
+👉 Vous pouvez l'utiliser, l'améliorer, le partager librement.
+🙋‍♀️ À propos
 
+Ce projet a été conçu dans un but pédagogique et personnel.
+Si vous avez des suggestions ou des idées d’amélioration, n’hésitez pas à me contacter !
 
-Vous avez le droit d'utiliser tout mon code 
+📧 Contact : meteniermyriam@yahoo.fr
 
-Il est libre d'exploitation et opensource:
-
-meteniermyriam@yahoo.fr
