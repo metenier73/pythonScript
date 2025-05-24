@@ -50,6 +50,7 @@ Exemple :
 
     Ou double-cliquez sur l'exécutable .exe une fois généré
 	
+![2025-05-25 01_43_41-Window](https://github.com/user-attachments/assets/cb71ea24-fbd6-46ee-89cf-3e7a37f6078d)
 
 📖 Licence
 
