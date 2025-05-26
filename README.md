@@ -50,7 +50,7 @@ Exemple :
 
     Ou double-cliquez sur l'exécutable .exe une fois généré
 
-https://github.com/metenier73/pythonScript/blob/master/2025-05-25%2001_43_41-Window.png?raw=true
+https://raw.githubusercontent.com/metenier73/pythonScript/refs/heads/master/2025-05-25%2001_43_41-Window.png
 
 
 📖 Licence
