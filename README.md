@@ -49,13 +49,14 @@ Exemple :
     Choisir : "Ouvrir avec" → votre IDE Python (ou python.exe)
 
     Ou double-cliquez sur l'exécutable .exe une fois généré
-	
+
 
 📖 Licence
 
 Ce projet est libre d’utilisation, de modification et de diffusion.
 Il est distribué sous licence Creative Commons — Attribution.
 👉 Vous pouvez l'utiliser, l'améliorer, le partager librement.
+
 
 🙋‍♀️ À propos
 
