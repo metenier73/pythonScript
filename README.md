@@ -49,8 +49,8 @@ Exemple :
     Choisir : "Ouvrir avec" → votre IDE Python (ou python.exe)
 
     Ou double-cliquez sur l'exécutable .exe une fois généré
-![sctipt](https://github.com/user-attachments/assets/12ca1c62-5bf7-46fa-adfd-51179ab60629)
 
+https://github.com/metenier73/pythonScript/blob/master/2025-05-25%2001_43_41-Window.png
 
 📖 Licence
 
