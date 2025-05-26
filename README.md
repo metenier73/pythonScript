@@ -56,6 +56,7 @@ Exemple :
 Ce projet est libre d’utilisation, de modification et de diffusion.
 Il est distribué sous licence Creative Commons — Attribution.
 👉 Vous pouvez l'utiliser, l'améliorer, le partager librement.
+
 🙋‍♀️ À propos
 
 Ce projet a été conçu dans un but pédagogique et personnel.
