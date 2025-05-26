@@ -49,6 +49,9 @@ Exemple :
     Choisir : "Ouvrir avec" → votre IDE Python (ou python.exe)
 
     Ou double-cliquez sur l'exécutable .exe une fois généré
+
+Aperçu de l’application
+https://user-images.githubusercontent.com/58040844/135306622-1b25dcf5-8366-4c22-9b3c-23ac450254ee.png
 	
 
 📖 Licence
