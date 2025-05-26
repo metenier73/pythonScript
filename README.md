@@ -50,15 +50,14 @@ Exemple :
 
     Ou double-cliquez sur l'exécutable .exe une fois généré
 
-Aperçu de l’application
-https://user-images.githubusercontent.com/58040844/135306622-1b25dcf5-8366-4c22-9b3c-23ac450254ee.png
-	
 
 📖 Licence
 
 Ce projet est libre d’utilisation, de modification et de diffusion.
 Il est distribué sous licence Creative Commons — Attribution.
 👉 Vous pouvez l'utiliser, l'améliorer, le partager librement.
+
+
 🙋‍♀️ À propos
 
 Ce projet a été conçu dans un but pédagogique et personnel.
